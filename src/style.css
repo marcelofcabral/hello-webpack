@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'MyFont0';
+  src: url('./Square.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MyFont1';
+  src: url('./Squareo.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+.hello {
+  color: red;
+  font-size: 40px;
+  font-family: 'MyFont0';
+  background: url('./gear.png');
+  background-size: 20px 20px;
+}
